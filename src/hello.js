@@ -4,10 +4,8 @@
 export function hello(sName = "world") {
     // processing
     let sGreeting = `Hello ${sName}!`;
-    // output
-    return sGreeting;
+    return sGreeting
 }
-
 if (import.meta.main) {
     console.log(`hello("Rich") returns "${hello("Rich")}"`);
 }
