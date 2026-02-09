@@ -1,8 +1,10 @@
-import {Hello} from './Hello.jsx';
+
+import { Hello } from './Hello.jsx';
 import { SnowRemoval } from './SnowRemoval.jsx';
-import {
-  View,
-} from 'react-native';
+
+import { View, } from 'react-native';
+
+
 //component names always start with a capital
 export default function App() {
   return (
@@ -16,3 +18,4 @@ export default function App() {
   );
 }
 
+//use "npm run dev" to get the browser file to open
